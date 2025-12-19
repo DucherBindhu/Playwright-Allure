@@ -1,0 +1,33 @@
+# Getting Started
+
+npm install (to get the dependencies) or yarn install
+
+# Install playwright browsers
+
+npx playwright install or yarn playwright install
+
+# Run The Test headless
+
+npx playwright test or yarn playwright test
+
+# Run The Test UI Mode
+
+npx playwright test --ui or yarn playwright test --ui
+
+# Generate HTML report
+
+npx playwright test --reporter=html
+
+# Generate allure report
+
+yarn allure generate ./allure-results --clean
+or
+yarn allure generate ./allure-results --clean -o allure-report
+
+# Generate allure results
+
+Run the tests using (yarn playwright test) will automatically generate allure-results directory
+
+# Open Allure report generated
+
+yarn allure open ./allure-report

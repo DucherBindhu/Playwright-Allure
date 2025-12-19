@@ -1,0 +1,19 @@
+{
+  "name": "allure",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "allure-generate":"yarn allure generate ./allure-results --clean -o allure-report",
+    "allure:open":"allure open ./allure-report"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.55.0",
+    "@types/node": "^22.4.2",
+    "allure-commandline": "^2.30.0",
+    "allure-playwright": "^2.9.0"
+  }
+}
